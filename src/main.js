@@ -1,15 +1,11 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'
+import router from './router' // remove if not using routing
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-AOS.init()
-
 const app = createApp(App)
-
-app.use(router)
-
+app.use(router) // remove if not using routing
 app.mount('#app')
+
+AOS.init()

@@ -18,7 +18,7 @@
     <p class="mt-1 text-lg">Game Developer focused on immersive experiences and clean UI design.</p>
 
     <!-- Featured Game -->
-    <p class="mt-4 text-indigo-500 font-semibold text-sm">
+    <p class="mt-4 text-blue-800  font-semibold text-sm">
       🎮 View My Featured Game
     </p>
     <img

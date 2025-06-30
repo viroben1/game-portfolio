@@ -3,20 +3,23 @@
     <div class="max-w-4xl mx-auto">
       <h1 class="text-4xl font-bold text-blue-400 mb-6">GAM 207: Player Character Prototype</h1>
 
-      <img
-        src="/gam207-screenshot.png"
-        alt="GAM 207 Unreal Engine Screenshot"
-        class="w-full rounded-lg shadow-lg border-2 border-blue-500 mb-8"
-      />
-
-      <section class="mb-8">
-        <h2 class="text-2xl font-semibold text-white mb-4">Overview</h2>
-        <p class="text-gray-300 leading-relaxed">
+      <div 
+        class="p-4 rounded-lg shadow-md bg-white dark:bg-gray-800 hover:scale-105 transition mb-8" 
+        data-aos="fade-up" 
+        data-aos-duration="800"
+      >
+        <img
+          src="/gam207-screenshot.png"
+          alt="GAM 207 Unreal Engine Screenshot"
+          class="w-full rounded-lg shadow-lg border-2 border-blue-500 mb-4"
+        />
+        <h2 class="text-2xl font-semibold text-black dark:text-white mb-2">Unreal Engine Player Character Prototype</h2>
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
           This prototype was built in Unreal Engine 5 for GAM 207 at SNHU. It features a basic player
           character with movement, jumping, camera control, projectile firing, and basic damage functionality.
           The focus was on learning Blueprints, event systems, and character scripting workflows.
         </p>
-      </section>
+      </div>
 
       <section class="mb-8">
         <h2 class="text-2xl font-semibold text-white mb-4">Key Features</h2>
@@ -48,3 +51,7 @@
     </div>
   </main>
 </template>
+
+<script setup>
+// No additional script logic required for this static display page
+</script>

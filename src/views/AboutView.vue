@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-4xl mx-auto px-4 py-10 space-y-12 text-center">
+  <div class="  max-w-4xl mx-auto px-4 py-10 space-y-20 text-center">
     <!-- About Me -->
     <section>
       <h2 class="text-2xl font-bold mb-2">About Me</h2>
@@ -40,18 +40,18 @@
       </a>
     </section>
 
-    <section class="mt-10 px-4">
+    <section class="mt-10 px-4 space-y-15">
   <h2 class="text-2xl font-bold mb-6 text-center">Skills</h2>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto space-y-15">
     <!-- Programming Languages -->
     <div class="flex flex-col items-center">
       <h3 class="text-lg font-semibold mb-4 text-center">Programming Languages</h3>
 
-      <div class="mb-4 w-full max-w-sm">
+      <div class="mb-4 w-full max-w-sm space-y-px">
         <div class="flex justify-center text-sm font-medium">
           <span>C++</span>
-          <span>85%</span>
+          <span>50%</span>
         </div>
         <div class="w-full bg-gray-300 rounded-full h-4">
           <div class="bg-blue-600 h-4 rounded-full" style="width: 85%"></div>
@@ -71,7 +71,7 @@
       <div class="mb-4 w-full max-w-sm">
         <div class="flex justify-center text-sm font-medium">
           <span>Java</span>
-          <span>70%</span>
+          <span>50%</span>
         </div>
         <div class="w-full bg-gray-300 rounded-full h-4">
           <div class="bg-blue-600 h-4 rounded-full" style="width: 70%"></div>
@@ -91,7 +91,7 @@
       <div class="mb-4 w-full max-w-sm">
         <div class="flex justify-center text-sm font-medium">
           <span>JavaScript</span>
-          <span>70%</span>
+          <span>90%</span>
         </div>
         <div class="w-full bg-gray-300 rounded-full h-4">
           <div class="bg-blue-600 h-4 rounded-full" style="width: 70%"></div>
@@ -106,7 +106,7 @@
       <div class="mb-4 w-full max-w-sm">
         <div class="flex justify-center text-sm font-medium">
           <span> Unreal Engine 5 </span>
-          <span> 90% </span>
+          <span class="space-y-25"> 50% </span>
         </div>
         <div class="w-full bg-gray-300 rounded-full h-4">
           <div class="bg-blue-600 h-4 rounded-full" style="width: 90%"></div>
@@ -116,7 +116,7 @@
       <div class="mb-4 w-full max-w-sm">
         <div class="flex justify-center text-sm font-medium">
           <span>Blueprint Scripting</span>
-          <span>85%</span>
+          <span>50%</span>
         </div>
         <div class="w-full bg-gray-300 rounded-full h-4">
           <div class="bg-blue-600 h-4 rounded-full" style="width: 85%"></div>
@@ -136,7 +136,7 @@
       <div class="mb-4 w-full max-w-sm">
         <div class="flex justify-center text-sm font-medium">
           <span>Git & GitHub</span>
-          <span>80%</span>
+          <span>90%</span>
         </div>
         <div class="w-full bg-gray-300 rounded-full h-4">
           <div class="bg-blue-600 h-4 rounded-full" style="width: 80%"></div>
