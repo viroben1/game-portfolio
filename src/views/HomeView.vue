@@ -1,26 +1,52 @@
 <template>
-  <div class="bg-gray-900 text-white min-h-screen">
-    <section class="flex flex-col items-center justify-center text-center py-24 px-4" data-aos="fade-down">
-      <h1 class="text-4xl md:text-6xl font-bold text-neon mb-4">Benjamin Farmer</h1>
-      <p class="text-lg md:text-2xl max-w-2xl">Game Developer Portfolio - Unreal Engine, Gameplay Programming, and Interactive Experiences</p>
-    </section>
-
-    <section class="max-w-6xl mx-auto px-4 py-16">
-      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-neon" data-aos="fade-up">Projects</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition duration-300" data-aos="fade-up" v-for="n in 6" :key="n">
-          <img src="https://via.placeholder.com/400x225.png?text=Project+Screenshot" alt="Project Screenshot" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="text-xl font-semibold text-neon mb-2">Project Title</h3>
-            <p class="text-gray-300 text-sm">Brief description of the project, engine, and technologies used for quick context for potential employers and collaborators.</p>
-          </div>
-        </div>
+  <div class="text-center p-6 bg-gray-900 text-white min-h-screen">
+    <!-- Navigation -->
+    <nav class="w-full flex justify-between items-center px-8 mt-6 text-neon" data-aos="fade-down">
+      <div class="flex-1 text-left">
+        <router-link to="/" class="hover:underline">Home</router-link>
       </div>
-    </section>
+      <div class="flex-1 text-center">
+        <router-link to="/about" class="hover:underline">About</router-link>
+      </div>
+      <div class="flex-1 text-right">
+        <router-link to="/projects/gam207" class="hover:underline">Projects</router-link>
+      </div>
+    </nav>
 
-    <footer class="text-center text-gray-400 py-8">
-      <p>&copy; 2025 Benjamin Farmer | <a href="https://github.com/viroben1" class="text-neon hover:underline" target="_blank">GitHub</a></p>
-    </footer>
+    <!-- Header -->
+    <h1 class="text-3xl md:text-4xl font-bold mt-8 text-neon" data-aos="fade-up">Benjamin Farmer</h1>
+    <p class="mt-2 text-lg md:text-xl" data-aos="fade-up" data-aos-delay="100">
+      Game Developer focused on immersive experiences and clean UI design.
+    </p>
+
+    <!-- Featured Game -->
+    <p class="mt-4 font-semibold text-neon text-sm" data-aos="fade-up" data-aos-delay="200">
+      🎮 View My Featured Game
+    </p>
+    <img
+      src="/gam207-screenshot.png"
+      alt="Screenshot of GAM 207 Unreal Engine project"
+      class="w-[400px] max-w-full h-auto rounded-lg shadow-lg border-2 border-neon mx-auto my-4"
+      data-aos="zoom-in"
+      data-aos-delay="300"
+    />
+
+    <!-- Projects Section -->
+    <div class="mt-10 text-center max-w-xl mx-auto" data-aos="fade-up" data-aos-delay="400">
+      <h2 class="text-2xl md:text-3xl font-bold mb-2 text-neon">Projects</h2>
+      <p class="mb-2">
+        Check out what I’ve been working on — from Unreal Engine prototypes to creative UI design.
+      </p>
+      <h3 class="font-medium text-lg">GAM 207 – Player Character Prototype</h3>
+      <div class="border border-gray-600 p-4 mt-3 rounded-lg bg-gray-800 inline-block text-left shadow-lg">
+        <p class="font-semibold text-neon">GAM 207 Project</p>
+        <p>Player character prototype made in Unreal Engine 5 with movement and shooting logic.</p>
+        <p>Learn more by clicking the view project link below.</p>
+        <router-link to="/projects/gam207" class="text-neon hover:underline block mt-2">
+          View Project
+        </router-link>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -31,11 +57,14 @@ import 'aos/dist/aos.css'
 AOS.init({
   once: true,
   duration: 800,
-});
+})
 </script>
 
 <style scoped>
 .text-neon {
-  color: #39FF14;
+  color: #39FF14; /* neon green */
+}
+.border-neon {
+  border-color: #39FF14;
 }
 </style>
