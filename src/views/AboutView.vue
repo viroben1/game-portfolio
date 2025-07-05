@@ -79,7 +79,7 @@
       <div class="space-y-4">
         <div><a href="https://github.com/viroben1" target="_blank" class="text-neon hover:underline">GitHub</a></div>
         <div><a href="https://linkedin.com" target="_blank" class="text-neon hover:underline">LinkedIn</a></div>
-        <div><a href="viroben2001@gmail.com" class="text-neon hover:underline">Email Me</a></div>
+        <div><a href="mailto:viroben2001@gmail.com" class="text-neon hover:underline">Email Me</a></div>
       </div>
     </section>
 
