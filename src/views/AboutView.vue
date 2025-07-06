@@ -76,17 +76,22 @@
     <!-- Connect With Me -->
     <section data-aos="fade-up" data-aos-delay="500">
       <h2 class="text-2xl font-bold mb-2 text-neon">Connect With Me</h2>
-      <div class="space-y-4">
+      <div class="space-x-4">
         <div><a href="https://github.com/viroben1" target="_blank" class="text-neon hover:underline">GitHub</a></div>
         <div><a href="https://linkedin.com" target="_blank" class="text-neon hover:underline">LinkedIn</a></div>
-        <div><a href="mailto:viroben2001@gmail.com" class="text-neon hover:underline">Email Me</a></div>
+        <div class="mb-4"><a href="mailto:viroben2001@gmail.com" class="text-neon hover:underline">Email Me</a></div>
+
       </div>
     </section>
 
-    <!-- Back to Home -->
-    <router-link to="/" class="block mt-6 text-neon hover:underline" data-aos="fade-up" data-aos-delay="600">
-      ← Back to Home
-    </router-link>
+   <div class=" mt-6 my-8 space-y-10">
+  <router-link 
+    to="/" 
+    class="inline-block   bg-neon text-gray-900 px-4 py-2 rounded hover:bg-green-400 transition text-lg"
+  >
+    ← Back to Home
+  </router-link>
+</div>
 
     <!-- Footer -->
     <Footer />
