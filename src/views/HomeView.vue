@@ -1,14 +1,18 @@
 <template>
-  <div class="text-center p-6 bg-gray-900 text-white min-h-screen">
+  <div class="   text-center p-6   min-h-screen"
+    style="background-color: #FFCCCB; color: #00BFFF ">
     <!-- Navigation -->
-    <nav class="w-full flex justify-between items-center px-8 mt-6 text-neon" data-aos="fade-down">
+    <nav class="w-full flex justify-between items-center px-8 mt-6 text-neon" data-aos="fade-down"
+    >
+      
       <div class="flex-1 text-left">
         <router-link to="/" class="hover:underline">Home</router-link>
       </div>
       <div class="flex-1 text-center">
         <router-link to="/about" class="hover:underline">About</router-link>
       </div>
-      <div class="flex-1 text-right">
+      <div  class="flex-1 text-right" 
+      >
         <router-link to="/projects/gam207" class="hover:underline">Projects</router-link>
       </div>
     </nav>
@@ -67,4 +71,6 @@ AOS.init({
 .border-neon {
   border-color: #39FF14;
 }
+
+
 </style>
