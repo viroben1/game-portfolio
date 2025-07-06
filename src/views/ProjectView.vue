@@ -1,5 +1,6 @@
 <template>
-  <main class="min-h-screen bg-gray-900 text-white py-12 px-6">
+  <main class="min-h-screen bg-gray-900 text-white py-12 px-6"
+  style="background-color: #808000 ; color: #ADFF2F; ">
     <div class="max-w-4xl mx-auto space-y-12">
       <h1 class="text-4xl font-bold text-neon mb-6" data-aos="fade-down">GAM 207: Player Character Prototype</h1>
 
