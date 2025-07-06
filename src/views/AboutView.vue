@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-4xl mx-auto px-4 py-10 space-y-20 text-center bg-gray-900 text-white min-h-screen"
-  style="background-color: #EE82EE; color: #FFFF00 ">
+  style="background-color: #EE82EE; color: #0000FF ">
     <!-- About Me -->
     <section data-aos="fade-up">
       <h2 class="text-2xl font-bold mb-2 text-neon">About Me</h2>
