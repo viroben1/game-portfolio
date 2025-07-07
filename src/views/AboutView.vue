@@ -27,7 +27,8 @@
     <section data-aos="fade-up" data-aos-delay="200">
       <h2 class="text-2xl font-bold mb-2 text-neon">Featured Game</h2>
       <p class="mb-4">Explore my favorite project showcasing gameplay mechanics.</p>
-      <router-link to="/projects/gam207" class="inline-block mt-4 bg-neon text-gray-900 px-4 py-2 rounded hover:bg-green-400 transition">
+      <router-link to="/projects/gam207" class="inline-block mt-4 bg-neon text-gray-900 px-4 py-2 rounded hover:bg-green-400 transition"
+      style="color: crimson;">
         View Game
       </router-link>
     </section>
@@ -35,7 +36,8 @@
     <!-- Resume Download -->
     <section data-aos="fade-up" data-aos-delay="300">
       <h2 class="text-2xl font-bold mb-2 text-neon">Download My Resume</h2>
-      <a href="/resume.pdf" download class="text-neon hover:underline inline-flex items-center">
+      <a href="/resume.pdf" download class="text-neon hover:underline inline-flex items-center"
+      style="color: crimson;">
         📄 Download My Resume
       </a>
     </section>
@@ -89,7 +91,8 @@
   <router-link 
     to="/" 
     class="inline-block   bg-neon text-gray-900 px-4 py-2 rounded hover:bg-green-400 transition text-lg"
-  >
+  
+  style="color: crimson;"  >
     ← Back to Home
   </router-link>
 </div>

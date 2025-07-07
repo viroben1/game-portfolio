@@ -45,8 +45,9 @@
 
       <router-link
         to="/"
-        class="inline-block bg-neon text-gray-900 font-bold py-2 px-4 rounded hover:bg-green-400 transition duration-300"
+        class="inline-block bg-neon  font-bold py-2 px-4 rounded hover:bg-green-400 transition duration-300"
         data-aos="fade-up" data-aos-delay="300"
+        style="color: crimson;"
       >
         ← Back to Home
       </router-link>

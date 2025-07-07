@@ -3,7 +3,7 @@
     style="background-color: #FFCCCB; color: #00BFFF ">
     <!-- Navigation -->
     <nav class="w-full flex justify-between items-center px-8 mt-6 text-neon" data-aos="fade-down"
-    >
+    style="color: yellow;">
       
       <div class="flex-1 text-left">
         <router-link to="/" class="hover:underline">Home</router-link>
