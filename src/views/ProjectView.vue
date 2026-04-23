@@ -1,58 +1,82 @@
 <template>
   <main class="min-h-screen bg-gray-900 text-white py-12 px-6"
-  style="background-color: #808000 ; color: #ADFF2F; ">
-    <div class="max-w-4xl mx-auto space-y-12">
-      <h1 class="text-4xl font-bold text-neon mb-6" data-aos="fade-down">GAM 207: Player Character Prototype</h1>
+    style="background-color: #808000 ; color: #ADFF2F; ">
 
+    <div class="max-w-4xl mx-auto space-y-12">
+
+      <!-- Title -->
+      <h1 class="text-4xl font-bold text-neon mb-6" data-aos="fade-down">
+        Enchanted Odyssey – Unreal Engine 5 Prototype
+      </h1>
+
+      <!-- Main Project Card -->
       <div 
         class="p-4 rounded-lg shadow-md bg-gray-800 hover:scale-105 transition mb-8 border border-neon"
         data-aos="fade-up" 
         data-aos-duration="800"
       >
-        <img
-          src="/gam207-screenshot.png"
-          alt="GAM 207 Unreal Engine Screenshot"
-          class="w-full rounded-lg shadow-lg border-2 border-neon mb-4"
-        />
-        <h2 class="text-2xl font-semibold text-neon mb-2">Unreal Engine Player Character Prototype</h2>
+        <iframe 
+  class="w-full h-[400px] rounded-lg mb-4"
+  src="https://www.youtube.com/embed/WEH8agwjuDw"
+  title="Enchanted Odyssey Gameplay"
+  allowfullscreen>
+</iframe>
+
+        <h2 class="text-2xl font-semibold text-neon mb-2">
+          Third-Person Character Prototype
+        </h2>
+
         <p class="text-gray-300 leading-relaxed">
-          This prototype was built in Unreal Engine 5 for GAM 207 at SNHU. It features a basic player
-          character with movement, jumping, camera control, projectile firing, and basic damage functionality.
-          The focus was on learning Blueprints, event systems, and character scripting workflows.
+          Enchanted Odyssey is a third-person Unreal Engine 5 prototype developed as part of my coursework and personal development.
+          The project focuses on building core gameplay systems including character spawning, entry animations, and player movement
+          using Blueprint scripting and Paragon assets.
+        </p>
+
+        <p class="text-gray-400 mt-3">
+          This prototype establishes a strong foundation for future systems including combat mechanics, AI behavior,
+          and expanded gameplay features.
         </p>
       </div>
 
+      <!-- Key Features -->
       <section data-aos="fade-up" data-aos-delay="100">
         <h2 class="text-2xl font-semibold text-neon mb-4">Key Features</h2>
+
         <ul class="list-disc list-inside text-gray-300 leading-relaxed">
-          <li>Third-person movement and jump input</li>
-          <li>Follow camera with spring arm</li>
-          <li>Projectile firing mechanic using “Set Timer By Function”</li>
-          <li>Basic health/damage trigger on overlap</li>
-          <li>Blueprint-based logic and event handling</li>
+          <li>Character selection and spawning system (gacha-style)</li>
+          <li>Paragon character integration with entry animations</li>
+          <li>Third-person movement system (walk, run, jump)</li>
+          <li>Camera control using Unreal Engine spring arm</li>
+          <li>Blueprint-based gameplay logic and event systems</li>
         </ul>
       </section>
 
+      <!-- Tools -->
       <section data-aos="fade-up" data-aos-delay="200">
         <h2 class="text-2xl font-semibold text-neon mb-4">Tools Used</h2>
+
         <ul class="list-disc list-inside text-gray-300 leading-relaxed">
           <li>Unreal Engine 5</li>
           <li>Blueprint Visual Scripting</li>
-          <li>Custom Input Bindings</li>
-          <li>Simple Materials & Collision</li>
+          <li>Paragon Character Assets</li>
+          <li>Niagara VFX (in progress)</li>
+          <li>Custom Input Mapping System</li>
         </ul>
       </section>
 
+      <!-- Back -->
       <router-link
         to="/"
-        class="inline-block bg-neon  font-bold py-2 px-4 rounded hover:bg-green-400 transition duration-300"
+        class="inline-block bg-neon font-bold py-2 px-4 rounded hover:bg-green-400 transition duration-300"
         data-aos="fade-up" data-aos-delay="300"
         style="color: crimson;"
       >
         ← Back to Home
       </router-link>
 
+      <!-- Footer -->
       <Footer />
+
     </div>
   </main>
 </template>
